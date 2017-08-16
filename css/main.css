@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor{
+	width: 600px;
+	height: 600px;
+	background-color: #bababa;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+}
+
+#rojo{
+	background-color: #f24848;
+}
+
+#azul{
+	background-color: #3d51e5;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+#amarillo{
+	background-color: #f2e943;	
+}
+
+#verde{
+	background-color: #63ea48;
+}
+
+/*
+**Desafio 1**
+#azul{
+	background-color: #3d51e5;
+	position: relative;
+	left: 200px;
+}
+
+**Desafio 2**
+#azul{
+	background-color: #3d51e5;
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+*/
